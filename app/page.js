@@ -12,6 +12,9 @@ const Home = () => {
       <button onClick={() => router.push("login")} className="btn ml-5">
         Login
       </button>
+      <button onClick={() => router.push("notes")} className="btn ml-5">
+        Notes
+      </button>
     </section>
   );
 };
